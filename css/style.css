@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 16px;
+
+  border: 1px solid blue;
+  background-color: blueviolet;
+  background-image: url("../img/water.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.row {
+  gap: 40px /*gap put space between flex items*/;
+  display: flex;
+}
+.row section {
+  backdrop-filter: blur(1px);
+  padding: 18px;
+  background-color: rgba(255, 255, 255, 0.141);
+}
+nav {
+  background-color: rgba(240, 255, 255, 0.247); 
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+a {
+  background-color: rgba(243, 252, 252, 0.194);
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 0px;
+  color:black;
+}
+img{
+  height: 100px; width: 100px;
+}
+hr {
+  border: 1px solid;
+}
+header {
+  margin-bottom: 14%;
+  text-align: center;
+  padding: 3px;
+  background-image: url(../img/youth.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+ 
+}
+
+header h1 {
+  color: white
+}
+
+section {
+  border-radius: 20px;
+}
+footer {
+  border-radius: 10px;
+  text-align: center;
+  padding: 4px;
+  background-color: rgba(105, 217, 217, 0.514);
+}
+
+
+footer ul {
+  list-style: none;
+}
+
+.flex{
+  display: flex ; gap: 14px;
+  width: 100%; justify-content: center;
+}
+
+.input-wrapper {margin-bottom: 20px;
+
+}
+.input-wrapper label { color: rgba(255, 255, 255, 0.756);
+
+}
+
